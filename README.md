@@ -20,4 +20,8 @@ Doctor bot is a diseases diagnosis web application made with flask-python. (See 
 * nicescroll.js
 * Google Fonts
 
+## Authors
+
+* Sakshi Jagtap
+
 
