@@ -1,9 +1,9 @@
-# Doctor Bot
+# MyDoctor Bot
 
 This is my Graduation Project ;)  
-Doctor bot is a diseases diagnosis web application made with flask-python. (See the screenshots)
+My Doctor bot is a diseases diagnosis web application made with flask-python. (See the screenshots)
 
-## Built With
+## TEchnologies used:
 
 * HTML5
 * CSS
