@@ -3,7 +3,7 @@
 This is my Graduation Project ;)  
 My Doctor bot is a diseases diagnosis web application made with flask-python. (See the screenshots)
 
-## TEchnologies used:
+## Technologies used:
 
 * HTML5
 * CSS
