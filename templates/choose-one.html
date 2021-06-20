@@ -15,11 +15,11 @@
         <div class="col-md-8">
             <div class="ques">
                 <h3>Please tell us more</h3>
-                <p>Please check all the statements below that apply to you.</p>
+                <p>Please check if the below statements apply to you.</p>
                 <form autocomplete="off" action="{{url_for('chooseOne')}}" method="POST" class="form-group">
 
                     <div class="question">
-                        <p>Which symptom you feel the most ?</p>
+                        <p>Which symptom do you feel the most ?</p>
                         <label class="wrapper">{{myQuestions1[0]}}
                         <input type="radio" name="ans" value="1{{myQuestions1[0]}}">
                         <span class="checkmark"></span>
@@ -40,7 +40,7 @@
         <div class="col-md-4">
                 {% if symptoms|length > 0 %}
             <div class="symptoms">        
-                    <h3>Your Complain</h3>
+                    <h3>Your Complaint</h3>
                     {% for s in symptoms %}
                         <!-- <div class="mySymps"> {{ s }} </div><br> -->
                         <label class="mySymps">{{ s }}<input type="text" name="sym[]" value="{{s}}" hidden></label>

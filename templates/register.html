@@ -9,7 +9,7 @@
     <h2 class="h1">Sign Up</h2>
     <form action="/register" method="POST">
         {{ form.hidden_tag() }}
-        
+
         {% if form.firstName.errors %}
           {{ form.firstName(class="form-control is-invalid",placeholder='First Name') }}
           <div class="invalid-feedback">
@@ -72,7 +72,7 @@
         {% else %}
         {{ form.password(class="form-control",placeholder='Password') }}
         {% endif %}
-        
+
         {% if form.confirm_password.errors %}
         {{ form.confirm_password(class="form-control is-invalid",placeholder='Confirm Password') }}
           <div class="invalid-feedback">
@@ -83,10 +83,10 @@
         {% else %}
         {{ form.confirm_password(class="form-control",placeholder='Confirm Password') }}
         {% endif %}
-        
+
         {{ form.submit(class="form-control mybtn",value='Sign Up') }}
     </form>
-    <p class="lead">Are you influencer? Sign in <a href="/login">Here</a></p>
+    <!-- <p class="lead">Are you influencer? Sign in <a href="/login">Here</a></p> -->
     </div>
 </div>
 

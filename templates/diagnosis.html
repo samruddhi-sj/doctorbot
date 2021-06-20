@@ -55,7 +55,7 @@
                 </div>
                 <hr>
                 <div class="dis-deg">
-                    <h4>Degree of dangerous: </h4>
+                    <h4>Degree of danger: </h4>
                     {% if diseasesInfo[loop.index0][3] == 'H' %}
                       <h5 style="color:#ff0000da;">High <span>(Prompt medical attention recommended)</span></h5>
                     {% elif diseasesInfo[loop.index0][3] == 'M' %}
@@ -75,7 +75,7 @@
               {% elif percent[loop.index0] > 30 %}
               <h5 style="color: #ff7700;">Moderate evidence <span>({{percent[loop.index0]}}%)</span></h5>
               {% else %}
-              <h5 style="color:#1ed200;">Week evidence <span>({{percent[loop.index0]}}%)</span></h5>
+              <h5 style="color:#1ed200;">Weak evidence <span>({{percent[loop.index0]}}%)</span></h5>
               {% endif %}
           </div>
           {% endfor %}

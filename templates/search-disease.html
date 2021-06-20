@@ -5,7 +5,7 @@
         <div class="header disease-search">
           <h3 class="dis-name">{{diseaseName}}</h3>
             <div class="dis-disc">
-                <h4>Discreption:</h4>
+                <h4>Details:</h4>
                 <p>{{diseasesInfo[2]}}</p>    
             </div>
             <hr>
@@ -21,7 +21,7 @@
             </div>
             <hr>
             <div class="dis-deg">
-                <h4>Degree of dangerous: </h4>
+                <h4>Degree of danger: </h4>
                 {% if diseasesInfo[3] == 'H' %}
                   <h5 style="color:#ff0000da;">High <span>(Prompt medical attention recommended)</span></h5>
                 {% elif diseasesInfo[3] == 'M' %}
